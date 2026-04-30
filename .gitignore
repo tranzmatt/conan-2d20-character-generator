@@ -1,3 +1,6 @@
 node_modules/
 dist/
 .DS_Store
+
+# Local sample PDFs (keep template, ignore filled exports)
+samples/original-modiphius-export.pdf
