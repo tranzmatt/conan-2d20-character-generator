@@ -19,3 +19,39 @@ This work is licensed under a
 ---
 
 **©2023 Conan Properties International LLC.** CONAN® and related logos, characters, names, and distinctive likenesses thereof are trademarks of Conan Properties International LLC unless otherwise noted. All Rights Reserved.
+
+## Run With Docker
+
+Build the image:
+
+```bash
+docker build -t conan2d20-character-generator .
+```
+
+Run the container:
+
+```bash
+docker run --rm -p 8080:80 conan2d20-character-generator
+```
+
+Open the app in your browser at:
+
+`http://localhost:8080`
+
+## Run With Docker Compose
+
+Start:
+
+```bash
+docker compose up --build -d
+```
+
+Stop:
+
+```bash
+docker compose down
+```
+
+Open the app in your browser at:
+
+`http://localhost:8080`

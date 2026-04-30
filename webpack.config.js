@@ -21,7 +21,8 @@ function getVersion() {
 module.exports = (_env, arg) => {
   const isProdMode = arg.mode === 'production';
   const VERSION = isProdMode ? getVersion() : 'DEV';
-  const BASE_URL = isProdMode ? '/character-generator/' : '/';
+  const configuredBaseUrl = process.env.PUBLIC_BASE_URL || (isProdMode ? '/character-generator/' : '/');
+  const BASE_URL = configuredBaseUrl.endsWith('/') ? configuredBaseUrl : `${configuredBaseUrl}/`;
 
   return {
     mode: isProdMode ? 'production' : 'development',
