@@ -4,6 +4,7 @@ import { CharacterSerializer } from '../common/characterSerializer';
 import { SetHeaderText } from '../common/extensions';
 import { Button } from '../components/button';
 import { CharacterSheet } from '../components/characterSheet';
+import { PdfExporter } from '../helpers/pdfExporter';
 import { CopyrightDisclaimer } from '../components/CopyrightDisclaimer';
 import { PDFNotice } from '../components/PDFNotice';
 import { RadioButton } from '../components/radioButton';
@@ -153,7 +154,10 @@ export class FinishPage extends React.Component<IPageProperties, {}> {
         </div>
         <br />
         <div className="panel button-container">
-          <Button text="Export PDF (Local)" className="button" onClick={() => this.exportPdfLocal()} />
+          <Button text="Export PDF (Template)" className="button" onClick={() => this.exportPdfTemplate()} />
+        </div>
+        <div className="panel button-container">
+          <Button text="Export PDF (Print)" className="button" onClick={() => this.exportPdfLocal()} />
         </div>
         <br />
         <div className="panel print-sheet-panel">
@@ -187,6 +191,10 @@ export class FinishPage extends React.Component<IPageProperties, {}> {
   private onPersonalityChanged() {
     character.personality = this.personality.value;
     this.forceUpdate();
+  }
+
+  private exportPdfTemplate() {
+    PdfExporter.exportCharacterToPdf();
   }
 
   private exportPdfLocal() {
