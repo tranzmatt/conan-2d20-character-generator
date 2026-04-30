@@ -174,3 +174,54 @@
     bottom: -200%;
   }
 }
+
+@media print {
+  body {
+    background: white !important;
+  }
+
+  .content-container-fullscreen,
+  .page-footer,
+  #footer,
+  #dialog,
+  #copyright,
+  .pdf-notice,
+  .button-container,
+  .page-text,
+  .panel {
+    display: none !important;
+  }
+
+  .print-sheet-panel {
+    display: block !important;
+  }
+
+  .page {
+    box-shadow: none !important;
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+  }
+
+  #character-sheet,
+  #sheet-container {
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    width: 100% !important;
+    max-height: none !important;
+    overflow: visible !important;
+    background: transparent !important;
+    padding: 0 !important;
+  }
+
+  .sheet-panel {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    box-shadow: none !important;
+    margin: 0 0 8px 0 !important;
+    width: 100% !important;
+  }
+}

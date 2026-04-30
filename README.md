@@ -38,6 +38,32 @@ Open the app in your browser at:
 
 `http://localhost:8080`
 
+## Reuse Old Modiphius PDF As Template
+
+If you have an exported PDF from when the old Modiphius endpoint worked, you can strip character values and keep the
+fillable template.
+
+Place your sample PDF at:
+
+`samples/original-modiphius-export.pdf`
+
+List all PDF form fields:
+
+```bash
+npm run pdf:fields
+```
+
+Generate a stripped reusable template and field inventory:
+
+```bash
+npm run pdf:template
+```
+
+Outputs:
+
+- `samples/original-modiphius-template.pdf`
+- `samples/original-modiphius-fields.json`
+
 ## Run With Docker Compose
 
 Start:
