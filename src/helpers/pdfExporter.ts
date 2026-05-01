@@ -12,12 +12,19 @@ export class PdfExporter {
     try {
       const { PDFDocument } = await import('pdf-lib');
 
-      // Load template from public folder
-      const response = await fetch('./samples/original-modiphius-template.pdf');
+      // Load template from the app's static asset base path.
+      const templateUrl = `${BASE_URL}samples/original-modiphius-template.pdf`;
+      const response = await fetch(templateUrl);
       if (!response.ok) {
-        throw new Error('Failed to load PDF template');
+        throw new Error(`Failed to load PDF template (${response.status})`);
       }
+
       const arrayBuffer = await response.arrayBuffer();
+      const header = new TextDecoder('ascii').decode(arrayBuffer.slice(0, 5));
+      if (header !== '%PDF-') {
+        throw new Error('Template file was not served as a PDF');
+      }
+
       const pdf = await PDFDocument.load(arrayBuffer);
       const form = pdf.getForm();
 
