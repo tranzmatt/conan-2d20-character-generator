@@ -23,13 +23,25 @@ class TalentViewModel {
   }
 }
 
-export class TalentsOverviewPage extends React.Component<{}, {}> {
+interface TalentDisplayItem extends TalentViewModel {
+  category: string;
+}
+
+interface TalentsOverviewState {
+  searchQuery: string;
+}
+
+export class TalentsOverviewPage extends React.Component<{}, TalentsOverviewState> {
   private _categories: string[] = [];
   private _category: string = '';
   private _talents: { [category: string]: TalentViewModel[] } = {};
 
   constructor(props: {}) {
     super(props);
+
+    this.state = {
+      searchQuery: ''
+    };
 
     SetHeaderText('Talents');
 
@@ -38,13 +50,47 @@ export class TalentsOverviewPage extends React.Component<{}, {}> {
     this.loadTalents();
   }
 
+  private getFilteredTalents(): TalentDisplayItem[] {
+    const query = this.state.searchQuery.toLowerCase().trim();
+
+    if (!query) {
+      // No search: show talents from current category
+      return this._talents[this._category].map(
+        (t) =>
+          ({
+            ...t,
+            category: this._category
+          } as TalentDisplayItem)
+      );
+    }
+
+    // Search across all categories
+    const results: TalentDisplayItem[] = [];
+    for (const category of this._categories) {
+      for (const talent of this._talents[category]) {
+        if (talent.name.toLowerCase().includes(query)) {
+          results.push({
+            ...talent,
+            category: category
+          } as TalentDisplayItem);
+        }
+      }
+    }
+    return results.sort((a, b) => a.name.localeCompare(b.name));
+  }
+
   render() {
-    const talents = this._talents[this._category].map((t, i) => {
+    const talents = this.getFilteredTalents().map((t, i) => {
       return (
         <tr key={i}>
           <td className="selection-header">
             {t.name}
             <div className="selection-header-small">({t.source})</div>
+            {this.state.searchQuery && (
+              <div className="selection-header-small" style={{ fontSize: '0.8em', marginTop: '4px' }}>
+                Category: {t.category}
+              </div>
+            )}
           </td>
           <td>
             <div>
@@ -57,9 +103,26 @@ export class TalentsOverviewPage extends React.Component<{}, {}> {
       );
     });
 
+    const isSearching = this.state.searchQuery.length > 0;
+
     return (
       <div>
         <div className="float-top">
+          <input
+            type="text"
+            placeholder="Search talents by name..."
+            value={this.state.searchQuery}
+            onChange={(e) => this.setState({ searchQuery: e.target.value })}
+            style={{
+              padding: '8px 12px',
+              marginRight: '12px',
+              marginBottom: '12px',
+              fontSize: '14px',
+              border: '1px solid #ccc',
+              borderRadius: '4px',
+              width: '250px'
+            }}
+          />
           <DropDownInput
             items={this._categories}
             defaultValue={this._category}
@@ -67,6 +130,11 @@ export class TalentsOverviewPage extends React.Component<{}, {}> {
               this.onCategoryChanged(index);
             }}
           />
+          {isSearching && (
+            <div style={{ marginLeft: '12px', color: '#666', fontSize: '14px', display: 'inline-block' }}>
+              Found {talents.length} talent{talents.length !== 1 ? 's' : ''}
+            </div>
+          )}
         </div>
         <div className="page">
           <table className="selection-list">

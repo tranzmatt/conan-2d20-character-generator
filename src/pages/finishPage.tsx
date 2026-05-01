@@ -2,7 +2,9 @@
 import { character, Gender } from '../common/character';
 import { CharacterSerializer } from '../common/characterSerializer';
 import { SetHeaderText } from '../common/extensions';
+import { Button } from '../components/button';
 import { CharacterSheet } from '../components/characterSheet';
+import { PdfExporter } from '../helpers/pdfExporter';
 import { CopyrightDisclaimer } from '../components/CopyrightDisclaimer';
 import { PDFNotice } from '../components/PDFNotice';
 import { RadioButton } from '../components/radioButton';
@@ -151,7 +153,14 @@ export class FinishPage extends React.Component<IPageProperties, {}> {
           </div>
         </div>
         <br />
-        <div className="panel">
+        <div className="panel button-container">
+          <Button text="Export PDF (Template)" className="button" onClick={() => this.exportPdfTemplate()} />
+        </div>
+        <div className="panel button-container">
+          <Button text="Export PDF (Print)" className="button" onClick={() => this.exportPdfLocal()} />
+        </div>
+        <br />
+        <div className="panel print-sheet-panel">
           <CharacterSheet isVisible={true} />
         </div>
         <CopyrightDisclaimer />
@@ -182,5 +191,23 @@ export class FinishPage extends React.Component<IPageProperties, {}> {
   private onPersonalityChanged() {
     character.personality = this.personality.value;
     this.forceUpdate();
+  }
+
+  private exportPdfTemplate() {
+    PdfExporter.exportCharacterToPdf();
+  }
+
+  private exportPdfLocal() {
+    const previousTitle = document.title;
+    const safeName = character.name
+      ? character.name
+          .trim()
+          .replace(/[^a-z0-9]+/gi, '-')
+          .replace(/^-+|-+$/g, '')
+      : 'conan-character';
+
+    document.title = `${safeName || 'conan-character'}-sheet`;
+    window.print();
+    document.title = previousTitle;
   }
 }

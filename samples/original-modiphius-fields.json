@@ -1,0 +1,1678 @@
+[
+  {
+    "name": "Agility.Skill.0.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Agility.Skill.0.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Agility.Skill.0.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Agility.Skill.1.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Agility.Skill.1.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Agility.Skill.1.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Agility.Skill.2.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Agility.Skill.2.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Agility.Skill.2.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Agility.Value",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Apperance",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Archetype",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Armor.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Armor.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Armor.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Armor.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Armor.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Armor.5",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Armor.6",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Skill.0.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Skill.0.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Skill.0.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Skill.1.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Skill.1.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Skill.1.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Skill.2.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Skill.2.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Skill.2.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Skill.3.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Skill.3.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Skill.3.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Awareness.Value",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.0.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.0.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.0.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.0.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.0.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.10",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.11",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.12",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.13",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.14",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.15",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.16",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.17",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.18",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.19",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.20",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.21",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.5",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.6",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.7",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.8",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Belongings.1.9",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "BnsDmg.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "BnsDmg.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "BnsDmg.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Brawn.Skill.0.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Brawn.Skill.0.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Brawn.Skill.0.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Brawn.Skill.1.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Brawn.Skill.1.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Brawn.Skill.1.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Brawn.Value",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Caste",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Coordination.Skill.0.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Coordination.Skill.0.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Coordination.Skill.0.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Coordination.Skill.1.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Coordination.Skill.1.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Coordination.Skill.1.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Coordination.Skill.2.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Coordination.Skill.2.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Coordination.Skill.2.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Coordination.Value",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Courage",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.0.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.0.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.0.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.0.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.0.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.0.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.0.5",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.0.6",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.0.7",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.0.8",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.1.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.1.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.1.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.1.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.1.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.1.5",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.1.6",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.1.7",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Creature.1.8",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Education",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Exp.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Exp.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "FP.0",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "FP.1",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "FP.2",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "FP.3",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "FP.4",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Gender - Age",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Gold",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Homeland",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.0.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.0.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.0.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.1.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.1.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.1.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.2.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.2.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.2.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.3.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.3.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.3.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.4.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.4.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.4.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.5.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.5.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Skill.5.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Intelligence.Value",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Languages",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Name",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Nature",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.0.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.0.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.0.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.1.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.1.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.1.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.2.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.2.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.2.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.3.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.3.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.3.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.4.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.4.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Person.Skill.4.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Personal.Value",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Personality",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Renown",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Reset",
+    "type": "PDFButton"
+  },
+  {
+    "name": "Resolve.0.0",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.0.1",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.0.2",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.0.3",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.0.4",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.1.0",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.1.1",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.1.2",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.1.3",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.1.4",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.2.0",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.2.1",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.2.2",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.2.3",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.2.4",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.3.0",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.3.1",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.3.2",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.3.3",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Resolve.3.4",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Spell.0.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.0.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.0.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.0.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.0.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.1.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.1.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.1.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.1.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.1.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.2.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.2.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.2.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.2.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.2.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.3.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.3.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.3.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.3.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.3.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.5.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.5.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.5.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.5.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.5.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.6.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.6.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.6.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.6.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.6.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.7.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.7.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.7.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.7.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.7.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.8.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.8.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.8.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Spell.8.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Standing",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.10",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.11",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.12",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.13",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.14",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.15",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.16",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.17",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.18",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.19",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.20",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.22",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.23",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.24",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.5",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.6",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.7",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.8",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Effect.9",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.10",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.11",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.12",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.13",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.14",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.15",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.16",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.17",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.18",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.19",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.20",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.22",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.23",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.24",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.5",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.6",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.7",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.8",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Name.9",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.10",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.11",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.13",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.14",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.15",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.16",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.17",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.18",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.19",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.20",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.21",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.22",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.23",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.24",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.6",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.7",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.8",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Rank.9",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.10",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.11",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.12",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.13",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.14",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.15",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.16",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.17",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.18",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.19",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.20",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.22",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.23",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.24",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.5",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.6",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.7",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.8",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Talent.Skill.9",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Trait",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Trauma.0",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Trauma.1",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Trauma.2",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Trauma.3",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Trauma.4",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Upkeep",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Vigor.0.0",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.0.1",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.0.2",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.0.3",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.0.4",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.1.0",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.1.1",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.1.2",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.1.3",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.1.4",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.2.0",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.2.1",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.2.2",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.2.3",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.2.4",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.3.0",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.3.1",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.3.2",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.3.3",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Vigor.3.4",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "War Story",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.0.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.0.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.0.10",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.0.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.0.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.0.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.0.5",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.0.6",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.0.7",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.0.8",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.0.9",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.1.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.1.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.1.10",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.1.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.1.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.1.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.1.5",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.1.8",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.1.9",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.2.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.2.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.2.10",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.2.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.2.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.2.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.2.5",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.2.6",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.2.7",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.2.8",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.2.9",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.3.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.3.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.3.10",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.3.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.3.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.3.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.3.5",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.3.6",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.3.7",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.3.8",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.3.9",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.4.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.4.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.4.10",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.4.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.4.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.4.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.4.5",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.4.6",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.4.7",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.4.8",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.4.9",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.5.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.5.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.5.10",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.5.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.5.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.5.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.5.5",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.5.6",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.5.7",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.5.8",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.5.9",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.6.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.6.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.6.10",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.6.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.6.3",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.6.4",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Weapon.6.5",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.6.6",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.6.7",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.6.8",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon.6.9",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon1.6",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Weapon1.7",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Willpower.Skill.0.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Willpower.Skill.0.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Willpower.Skill.0.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Willpower.Skill.1.0",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Willpower.Skill.1.1",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Willpower.Skill.1.2",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Willpower.Value",
+    "type": "PDFTextField"
+  },
+  {
+    "name": "Wounds.0",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Wounds.1",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Wounds.2",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Wounds.3",
+    "type": "PDFCheckBox"
+  },
+  {
+    "name": "Wounds.4",
+    "type": "PDFCheckBox"
+  }
+]
